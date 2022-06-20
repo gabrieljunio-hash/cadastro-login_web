@@ -1,0 +1,138 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #a569f5, #4A099E);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4A099E;
+}
+
+hr{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 60%;
+}
+
+p{
+    color:rgb(47, 47, 47);
+    font-size: 14pt;
+    text-align: center;
+}
+
+a{
+    color: #4A099E;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+a:hover{
+    color:#16062d;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.card{
+    background-color: #ffffffd5;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 1px 0px #00000060;
+}
+
+.label-float input{
+    padding: 10px 5px;
+    margin-top: 2px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid rgb(47, 47, 47); 
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+
+.label-float{
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label{
+
+    color: rgb(47, 47, 47);
+    font-size: 13px;
+    margin-top: 0;
+
+}
+
+.label-float input:focus{
+    border-bottom: 2px solid rgb(47, 47, 47);
+}
+ 
+.label-float label{
+    color: rgb(47, 47, 47);
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+
+#btn{
+    background-color: transparent;
+    border-color: #4A099E;
+    color: #4A099E;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 7px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+#btn:hover{
+    background-color: #23044d;
+    color: rgb(225, 214, 199);
+    transition: all .3s ease-out;
+}
+
+#btn:focus{
+    background-color: #4A099E;
+    color: rgb(225, 214, 199);
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-eye{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    color: rgb(47, 47, 47);
+}

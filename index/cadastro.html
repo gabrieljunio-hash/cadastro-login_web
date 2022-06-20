@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/cadastro.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sua Reserva</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="card"> 
+
+                <h1>Cadastrar</h1>
+                
+                <div class="label-float">
+                    <input type="text" placeholder="" name="nome" id="nome" required>
+                    <label  for="Nome">Nome</label>
+                </div>
+
+                <div class="label-float">
+                    <input type="email" placeholder="" name="email" id="email" required>
+                    <label  for="usuario">Usuario</label>
+                </div>
+
+                <div class="label-float">
+                    <input type="password" placeholder="" name="senha" id="senha" required>
+                    <label class="label-float" for="senha">Senha</label>
+                    <i id="versenha" class="fa fa-eye" aria-hidden="true"></i>
+                </div>
+
+                <div class="label-float">
+                    <input type="password" placeholder="" name="confirmsenha" id="confirmsenha" required>
+                    <label class="label-float" for="senha">Confirmar Senha</label>
+                    <i id="verconfirmsenha" class="fa fa-eye" aria-hidden="true"></i>
+                </div>
+
+                <div class="justify-center">
+                <input type="submit"  value="Cadastrar" id="btn"> <br><br>
+                </div>
+
+                <hr>
+                
+
+            <p>Já possui uma conta?<a href="/index/login.html"> login in!</a></p>
+            
+        </div>
+       
+    </div>
+</body>
+<script src="/scripts/pagcadastro.js"></script>
+</html>
